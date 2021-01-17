@@ -1,0 +1,118 @@
+@media (max-width: 1190px) {
+    br {
+        display: none;
+    }
+    .container {
+        width: 740px;
+    }
+    .nav-text,
+    .sections-title {
+        text-align: center;
+    }
+    .header {
+        padding: 20px 0;
+        position: relative;
+        box-sizing: border-box;
+    }
+    .logo,
+    .nav-text,
+    .nav-date {
+        margin-bottom: 20px;
+    }
+    .nav  {
+        flex-direction: column;
+    }
+    .nav-text span {
+        display: block;
+    }
+    .main {
+        margin-top: 0;
+    }
+    .main-speker-block {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin: 0 auto;
+    }
+    .registration-block,
+    .statistics,
+    .speker-block,
+    .main-block {
+        flex-direction: column;
+    }
+    .registration-content,
+    .registration-form,
+    .speker-img,
+    .speker-content,
+    .topic-list-box,
+    .main-content {
+        width: 100%;
+    }
+    .statistics {
+        position: relative;
+        box-sizing: border-box;
+        padding: 0 20px;
+
+    }
+    .statistics li {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .statistics-item {
+        margin: 0;
+        margin-right: 20px;
+    }
+    .statistics-item__text {
+        text-align: center;
+        font-size: 20px;
+    }
+    .causes-list__item {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .container {
+        width: 90%;
+    }
+    .sections-title {
+        font-size: 22px;
+    }
+    .main-text,
+    .main-title {
+        text-align: center;
+        font-size: 26px;
+    }
+    .main-list {
+        padding-left: 0;
+    }
+    .statistics li {
+        flex-direction: column;
+    }
+    .statistics-item {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .registration-list__item,
+    .causes-list__item {
+        font-size: 16px;
+    }
+    .border-box {
+        padding: 20px;
+        flex-direction: column;
+    }
+    .border-box__container,
+    .border-box__text {
+        max-width: 100%;
+        width: 100%;
+        text-align: center;
+    }
+    .border-box__text {
+        margin-bottom: 20px;
+    }
+    .registration-list {
+        margin-top: 0;
+    }
+
+}
