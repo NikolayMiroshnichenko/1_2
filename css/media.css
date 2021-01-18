@@ -1,5 +1,6 @@
 @media (max-width: 1190px) {
-    br {
+    br,
+    .mobill-none {
         display: none;
     }
     .container {
@@ -13,14 +14,6 @@
         padding: 20px 0;
         position: relative;
         box-sizing: border-box;
-    }
-    .logo,
-    .nav-text,
-    .nav-date {
-        margin-bottom: 20px;
-    }
-    .nav  {
-        flex-direction: column;
     }
     .nav-text span {
         display: block;
@@ -48,6 +41,9 @@
     .main-content {
         width: 100%;
     }
+    .topic-list__item {
+        box-sizing: border-box;
+    }
     .statistics {
         position: relative;
         box-sizing: border-box;
@@ -65,7 +61,7 @@
         margin-right: 20px;
     }
     .statistics-item__text {
-        text-align: center;
+        text-align: left;
         font-size: 20px;
     }
     .causes-list__item {
@@ -79,27 +75,44 @@
     .sections-title {
         font-size: 22px;
     }
-    .main-text,
+    .main {
+        padding: 40px 0 60px 0;
+    }
     .main-title {
         text-align: center;
         font-size: 26px;
     }
-    .main-list {
-        padding-left: 0;
+    .main-text {
+        text-align: center;
+        font-style: italic;
+        font-size: 18px;
     }
-    .statistics li {
-        flex-direction: column;
+    .main-list {
+        padding-left: 10px;
+    }
+    .main-list li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .speker-list__item {
+        font-size: 18px;
     }
     .statistics-item {
-        margin-right: 0;
-        margin-bottom: 20px;
+        min-width: 140px;
+        margin-right: 20px;
+    }
+    .statistics-item__text {
+        font-size: 16px;
     }
     .registration-list__item,
     .causes-list__item {
         font-size: 16px;
     }
+    .causes-list__item {
+        margin-bottom: 20px;
+    }
     .border-box {
-        padding: 20px;
+        padding: 30px 20px;
         flex-direction: column;
     }
     .border-box__container,
