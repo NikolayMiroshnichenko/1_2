@@ -1,131 +1,144 @@
 @media (max-width: 1190px) {
-    br,
-    .mobill-none {
-        display: none;
-    }
-    .container {
-        width: 740px;
-    }
-    .nav-text,
-    .sections-title {
-        text-align: center;
-    }
-    .header {
-        padding: 20px 0;
-        position: relative;
-        box-sizing: border-box;
-    }
-    .nav-text span {
-        display: block;
-    }
-    .main {
-        margin-top: 0;
-    }
-    .main-speker-block {
-        position: relative;
-        left: 0;
-        top: 0;
-        margin: 0 auto;
-    }
-    .registration-block,
-    .statistics,
-    .speker-block,
-    .main-block {
-        flex-direction: column;
-    }
-    .registration-content,
-    .registration-form,
-    .speker-img,
-    .speker-content,
-    .topic-list-box,
-    .main-content {
-        width: 100%;
-    }
-    .topic-list__item {
-        box-sizing: border-box;
-    }
-    .statistics {
-        position: relative;
-        box-sizing: border-box;
-        padding: 0 20px;
-
-    }
-    .statistics li {
-        display: flex;
-        align-items: center;
-        width: 100%;
-        margin-bottom: 40px;
-    }
-    .statistics-item {
-        margin: 0;
-        margin-right: 20px;
-    }
-    .statistics-item__text {
-        text-align: left;
-        font-size: 20px;
-    }
-    .causes-list__item {
-        width: 100%;
-    }
+  br,
+  .mobill-none {
+    display: none;
+  }
+  .container {
+    width: 740px;
+  }
+  .nav-text,
+  .sections-title {
+    text-align: center;
+  }
+  .header {
+    padding: 20px 0;
+    position: relative;
+    box-sizing: border-box;
+  }
+  .nav-text span {
+    display: block;
+  }
+  .main {
+    margin-top: 0;
+  }
+  .main-content {
+    margin-bottom: 40px;
+  }
+  .main-speker-block {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin: 0 auto;
+  }
+  .registration-block,
+  .statistics,
+  .speker-block,
+  .main-block {
+    flex-direction: column;
+  }
+  .registration-content,
+  .registration-form,
+  .speker-img,
+  .speker-content,
+  .topic-list-box,
+  .main-content {
+    width: 100%;
+  }
+  .topic-list__item {
+    box-sizing: border-box;
+  }
+  .statistics {
+    position: relative;
+    box-sizing: border-box;
+    padding: 0 20px;
+  }
+  .statistics li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .statistics-item {
+    margin: 0;
+    margin-right: 20px;
+  }
+  .statistics-item__text {
+    text-align: left;
+    font-size: 20px;
+  }
+  .causes-list__item {
+    width: 100%;
+  }
+  .widget {
+    width: 450px;
+    margin: 0 auto;
+    height: 320px !important;
+  }
 }
 @media (max-width: 767px) {
-    .container {
-        width: 90%;
-    }
-    .sections-title {
-        font-size: 22px;
-    }
-    .main {
-        padding: 40px 0 60px 0;
-    }
-    .main-title {
-        text-align: center;
-        font-size: 26px;
-    }
-    .main-text {
-        text-align: center;
-        font-style: italic;
-        font-size: 18px;
-    }
-    .main-list {
-        padding-left: 10px;
-    }
-    .main-list li {
-        font-size: 14px;
-        margin-bottom: 20px;
-    }
-    .speker-list__item {
-        font-size: 18px;
-    }
-    .statistics-item {
-        min-width: 140px;
-        margin-right: 20px;
-    }
-    .statistics-item__text {
-        font-size: 16px;
-    }
-    .registration-list__item,
-    .causes-list__item {
-        font-size: 16px;
-    }
-    .causes-list__item {
-        margin-bottom: 20px;
-    }
-    .border-box {
-        padding: 30px 20px;
-        flex-direction: column;
-    }
-    .border-box__container,
-    .border-box__text {
-        max-width: 100%;
-        width: 100%;
-        text-align: center;
-    }
-    .border-box__text {
-        margin-bottom: 20px;
-    }
-    .registration-list {
-        margin-top: 0;
-    }
-
+  .container {
+    width: 90%;
+  }
+  .sections-title {
+    font-size: 22px;
+  }
+  .main {
+    padding: 40px 0 60px 0;
+  }
+  .main-title {
+    text-align: center;
+    font-size: 26px;
+  }
+  .main-text {
+    font-style: italic;
+    font-size: 18px;
+  }
+  .main-list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .speker-list__item {
+    font-size: 18px;
+  }
+  .statistics-item {
+    min-width: 140px;
+    margin-right: 20px;
+  }
+  .statistics-item__text {
+    font-size: 16px;
+  }
+  .registration-list__item,
+  .causes-list__item {
+    font-size: 16px;
+  }
+  .causes-list__item {
+    margin-bottom: 20px;
+  }
+  .border-box {
+    padding: 30px 20px;
+    flex-direction: column;
+  }
+  .border-box__container,
+  .border-box__text {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+  }
+  .border-box__text {
+    margin-bottom: 20px;
+  }
+  .registration-form {
+    width: 100%;
+    margin-bottom: 40px;
+    padding: 20px 10px;
+    box-sizing: border-box;
+  }
+  .registration-list {
+    margin-top: 0;
+  }
+  .widget {
+    width: 100%;
+    margin: 0 auto;
+    height: 380px !important;
+  }
 }
